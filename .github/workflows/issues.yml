@@ -18,22 +18,6 @@ jobs:
           template: classic
           base: ""
 
-          since: 1y
-
-          plugin_issues: yes
-          plugin_issues_limit: 500
-          plugin_issues_days: 365
-          plugin_issues_closed: yes
-          plugin_issues_opened: no
-
-          # Breakdown assignee
-          plugin_issues_assignees: yes
-          plugin_issues_assignees_limit: 5
-
-          plugin_issues_metrics: yes
-          plugin_issues_metrics_threshold: 0
-          plugin_issues_labels: yes
-          plugin_issues_labels_limit: 10
           
           filename: yearly-metrics.svg
           output_action: commit
